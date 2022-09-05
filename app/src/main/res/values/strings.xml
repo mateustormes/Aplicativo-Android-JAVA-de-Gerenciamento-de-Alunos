@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SafeTour NovAmérica</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="cadastrarUsuarios">Cadastrar Usuários</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cpf">CPF:</string>
+    <string name="entrar">Entrar</string>
+    <string name="excluir">Excluir</string>
+    <string name="informeCpf">Informe o CPF:</string>
+    <string name="informeNome">Informe o Nome:</string>
+    <string name="informeTelefone">Informe o Telefone:</string>
+    <string name="informeSenha">Informe a Senha</string>
+    <string name="integrar">Integrar</string>
+    <string name="integrarUsuarios">Integrar Usuários</string>
+    <string name="listarUsuarios">Listar Usuários</string>
+    <string name="listarQuestionario">Listar Questionários</string>
+    <string name="menu">Menu</string>
+    <string name="nome">Nome:</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="recuperarSenha">Recuperar Senha</string>
+    <string name="salvar">Salvar</string>
+    <string name="telefone">Telefone</string>
+    <string name="tirarFoto">Tirar Foto</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Seja Bem Vindo !</string>
+    <string name="invalid_username">Cpf/Senha não informado!</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

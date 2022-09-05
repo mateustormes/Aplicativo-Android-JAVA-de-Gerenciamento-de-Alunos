@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.novamerica.cadastroalunoactivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CadastroAlunoActivity"
+        tools:targetApi="31">
+        <activity
+            android:name="com.novamerica.safetouractivity.ui.Questionarios.QuestionariosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.novamerica.safetouractivity.ui.menu.MenuActivity"
+            android:exported="false"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.novamerica.safetouractivity.ui.Login.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="sensor">
+
+        </activity>
+        <activity
+            android:name="com.novamerica.safetouractivity.ui.MainActivity"
+            android:exported="true"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.novamerica.safetouractivity.ui.Integracao.IntegrarActivity"
+            android:exported="true"
+            android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.novamerica.safetouractivity.ui.Usuario.ListarUsuarioActivity"
+            android:exported="true"
+            android:screenOrientation="sensor"></activity>
+        <activity
+            android:name="com.novamerica.safetouractivity.ui.Usuario.CadastroUsuarioActivity"
+            android:exported="true"
+            android:screenOrientation="sensor"></activity>
+    </application>
+
+</manifest>

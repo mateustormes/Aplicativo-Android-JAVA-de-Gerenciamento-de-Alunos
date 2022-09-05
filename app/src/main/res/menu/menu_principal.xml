@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idTitleLogadoPrincipal"
+        android:title="@string/nome"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@android:drawable/ic_menu_save"
+        android:onClick="cadastrar"
+        android:title="@string/cadastrarUsuarios"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="@string/pesquisar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:icon="@android:drawable/ic_dialog_email"
+        android:onClick="irTelaIntegrarSistemas"
+        android:title="@string/integrar"
+        app:showAsAction="never|ifRoom" />
+</menu>
